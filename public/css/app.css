@@ -186,6 +186,12 @@ footer .logo {
     width: 200px;
 }
 
+@media (max-width: 576px) {
+    footer .logo {
+        width: 70px;
+    }
+}
+
 form, footer, #finish {
     background-color: #262426 !important;
 }

@@ -47,7 +47,7 @@
     <form action="{{ route('form.submit') }}" method="POST">
         @csrf
 
-        <section id="bodyType" class="bottom-line pt-3 pb-5">
+        <section id="bodyType" class="py-3">
             <div class="container pb-5">
                 <h3 class="text-center mb-5 subtitle">Пройдіть невеликий тест для підбору авто</h3>
                 <h4 class="text-center mb-4 subtitle">Тип кузова</h4>
@@ -116,7 +116,7 @@
             </div>
         </section>
 
-        <section id="fuelType" class="bottom-line py-5 d-none">
+        <section id="fuelType" class="py-3 d-none">
             <div class="container py-5">
                 <h4 class="text-center mb-4 subtitle">Тип палива</h4>
                 @error('fuelType')
@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section id="budget" class="bottom-line py-5 d-none">
+        <section id="budget" class="py-3 d-none">
             <div class="container py-5">
                 <h4 class="text-center mb-4 subtitle">Бюджет</h4>
                 @error('budget')
@@ -257,7 +257,7 @@
             </div>
         </section>
 
-        <section id="contacts" class="bottom-line py-5 d-none">
+        <section id="contacts" class="py-3 d-none">
             <div class="container py-5">
                 <h3 class="text-center subtitle mb-5">
                     Вкажіть Ваші контактні дані для отримання результату підбору та персонального подарунку, для кожного
