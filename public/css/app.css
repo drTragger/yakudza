@@ -164,6 +164,16 @@ input {
     color: #000;
 }
 
+.logo {
+    width: 146px;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 126px;
+    }
+}
+
 .logo-2 {
     width: 406px;
 }

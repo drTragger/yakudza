@@ -5,8 +5,8 @@
     <section id="hero" class="py-3" style="background-image: url('{{ asset('storage/images/backgrounds/hero.png') }}')">
         <div class="container">
             <div class="d-flex d-md-block justify-content-between mb-3">
-                <img class="img-fluid" src="{{ asset('storage/images/logo.svg') }}" alt="Logo">
-                <div class="d-flex d-md-none flex-column mr-2">
+                <img class="img-fluid logo" src="{{ asset('storage/images/logo.svg') }}" alt="Logo">
+                <div class="d-flex d-md-none flex-column mr-2 ml-3">
                     <div class="d-flex justify-content-center mt-4">
                         <a class="phone-number" href="tel:+380634334877" style="font-size: 14px">
                             +38 (063) 4334 877

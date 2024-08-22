@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
-{{--    <meta name="description" content="Лазертаг Дніпро ✅ ВСЛК &quot;Войнушка&quot; - Клуб Лазерних боїв Лазертаг бої на відкритій місцевості, в приміщенні. ☎ (096) 486 2244 (099) 456 9009.">--}}
+    <meta name="description" content="Авто із США, Європи, Кореї, Канади та Норвегії. Отримай бажане з вигодою до 40% від ринкової вартості України">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -13,6 +13,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Toastr CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+
+    <!-- Standard favicon -->
+    <link rel="icon" href="{{ asset('favicons/favicon.ico') }}" type="image/x-icon">
 
     <!-- Favicon PNG files -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicons/16x16.png') }}">
