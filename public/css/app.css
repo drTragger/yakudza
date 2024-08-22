@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --accent-color: #DD5204;
+    --text-color: #F5F5F5;
+    --option-bg: #BCBAAF;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#hero {
+    background-position: center;
+}
+
+#hero h1 {
+    color: var(--accent-color);
+    font-weight: 800;
+    font-size: 70px;
+}
+
+#hero h4 {
+    font-weight: 400;
+    font-size: 32px;
+    border-left: 1px solid var(--accent-color);
+    padding-left: 27px;
+}
+
+@media (max-width: 576px) {
+    #hero h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #hero h4 {
+        font-size: 13px;
+        padding-left: 0;
+        border: none;
+    }
+}
+
+.btn-grey {
+    background: linear-gradient(90deg, #ECDFD1 0%, #867F77 100%);
+    border: 5px solid var(--accent-color);
+    border-radius: 50px;
+    width: 20rem;
+    font-weight: 800;
+    font-size: 30px;
+    color: #000;
+}
+
+#bodyType h3 {
+    color: var(--accent-color);
+}
+
+.subtitle, .option-button {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .subtitle {
+        font-size: 24px;
+    }
+}
+
+.option {
+    cursor: pointer;
+}
+
+.option img {
+    width: 342px;
+    height: 190px;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option input[type="radio"]:checked + img, .option input[type="radio"]:checked ~ .option-button {
+    border: 2px solid var(--accent-color);
+    border-radius: 100px;
+}
+
+.option input[type="radio"]:checked ~ span, .option input[type="radio"]:checked ~ .option-button {
+    color: var(--accent-color);
+}
+
+.option-button {
+    background-color: var(--option-bg);
+    width: 342px;
+    height: 190px;
+    border-radius: 100px;
+    color: #000;
+}
+
+@media (max-width: 576px) {
+    .option img, .option-button {
+        width: 171px;
+        height: 95px;
+    }
+
+    .option span, .option-button {
+        font-size: 24px;
+    }
+}
+
+.bottom-line {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+input {
+    background-color: var(--option-bg) !important;
+}
+
+#contacts button {
+    background-color: var(--option-bg);
+    color: #000;
+}
+
+.logo-2 {
+    width: 406px;
+}
+
+footer .logo {
+    width: 488px;
+}
+
+form, footer {
+    background-color: #262426 !important;
+}
+
+.phone-number {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 32px;
+}
+
+@media (max-width: 576px) {
+    .phone-number {
+        font-size: 20px;
+    }
+}
+
+.phone-number:hover {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.social-container {
+    width: 50%;
+}
+
+@media (max-width: 576px) {
+    .social-container {
+        width: 100%;
+    }
+}
+
+.name-phone-container {
+    width: 75%;
+}
+
+@media (max-width: 576px) {
+    .name-phone-container {
+        width: 100%;
+    }
+}

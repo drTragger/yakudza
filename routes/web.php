@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('pages.index');
+})->name('index');
+
+Route::middleware('web')->post('/form', [FormController::class, 'submit'])
+    ->middleware('throttle:3,1')
+    ->name('form.submit');
