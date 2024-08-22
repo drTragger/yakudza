@@ -172,7 +172,7 @@ footer .logo {
     width: 488px;
 }
 
-form, footer {
+form, footer, #finish {
     background-color: #262426 !important;
 }
 

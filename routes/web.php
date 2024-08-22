@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('pages.index');
 })->name('index');
 
+Route::get('/finish', function () {
+    return view('pages.finish');
+})->name('finish');
+
 Route::middleware('web')->post('/form', [FormController::class, 'submit'])
     ->middleware('throttle:3,1')
     ->name('form.submit');

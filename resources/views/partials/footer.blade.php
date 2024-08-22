@@ -6,16 +6,16 @@
         <a class="text-center phone-number" href="tel:+380634334877">+38 (063) 4334 877</a>
     </div>
     <div class="d-flex justify-content-around m-auto py-4 social-container">
-        <a href="mailto:yakudzaworkua@gmail.com">
+        <a href="mailto:yakudzaworkua@gmail.com" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/email.svg') }}" alt="Email">
         </a>
-        <a href="https://t.me/yakudzaoffer">
+        <a href="https://t.me/yakudzaoffer" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/telegram.svg') }}" alt="Telegram">
         </a>
-        <a href="https://www.instagram.com/yakudza_cars_uk/">
+        <a href="https://www.instagram.com/yakudza_cars_uk/" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="Instagram">
         </a>
-        <a href="https://www.facebook.com/profile.php?id=61563981977021">
+        <a href="https://www.facebook.com/profile.php?id=61563981977021" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/facebook.svg') }}" alt="Facebook">
         </a>
     </div>

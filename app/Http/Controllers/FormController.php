@@ -33,6 +33,6 @@ class FormController extends Controller
             return redirect()->back()->with('error', 'Щось пішло не так.');
         }
 
-        return redirect()->back()->with('success', 'Ми отримали ваші побажання і найближчим часом звʼяжемось з вами');
+        return redirect()->route('finish');
     }
 }

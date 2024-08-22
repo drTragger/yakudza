@@ -8,16 +8,16 @@
                 <img class="img-fluid" src="{{ asset('storage/images/logo.svg') }}" alt="Logo">
                 <div class="d-flex d-md-none flex-column mr-4">
                     <div class="d-flex justify-content-center mt-3">
-                        <a href="mailto:yakudzaworkua@gmail.com" class="mr-3">
+                        <a href="mailto:yakudzaworkua@gmail.com" target="_blank" class="mr-3">
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/email.svg') }}" alt="Email">
                         </a>
-                        <a href="https://t.me/yakudzaoffer" class="mr-3">
+                        <a href="https://t.me/yakudzaoffer" target="_blank" class="mr-3">
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/telegram.svg') }}" alt="Telegram">
                         </a>
-                        <a href="https://www.instagram.com/yakudza_cars_uk/" class="mr-3">
+                        <a href="https://www.instagram.com/yakudza_cars_uk/" target="_blank" class="mr-3">
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/instagram.svg') }}" alt="Instagram">
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61563981977021">
+                        <a href="https://www.facebook.com/profile.php?id=61563981977021" target="_blank">
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/facebook.svg') }}" alt="Facebook">
                         </a>
                     </div>
@@ -114,7 +114,7 @@
             </div>
         </section>
 
-        <section id="fuelType" class="bottom-line py-5">
+        <section id="fuelType" class="bottom-line py-5 d-none">
             <div class="container py-5">
                 <h4 class="text-center mb-4 subtitle">Тип палива</h4>
                 @error('fuelType')
@@ -180,7 +180,7 @@
             </div>
         </section>
 
-        <section id="budget" class="bottom-line py-5">
+        <section id="budget" class="bottom-line py-5 d-none">
             <div class="container py-5">
                 <h4 class="text-center mb-4 subtitle">Бюджет</h4>
                 @error('budget')
@@ -255,7 +255,7 @@
             </div>
         </section>
 
-        <section id="contacts" class="bottom-line py-5">
+        <section id="contacts" class="bottom-line py-5 d-none">
             <div class="container py-5">
                 <h3 class="text-center subtitle mb-5">
                     Вкажіть Ваші контактні дані для отримання результату підбору та персонального подарунку, для кожного
