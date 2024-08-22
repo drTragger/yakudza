@@ -1,4 +1,4 @@
-<div class="container pb-5">
+<div class="container py-5">
     <div class="w-100 d-flex justify-content-center mb-4">
         <img class="img-fluid logo" src="{{ asset('storage/images/logo.svg') }}" alt="Logo">
     </div>
@@ -20,7 +20,7 @@
         </a>
     </div>
     <div class="d-flex justify-content-center">
-        <a class="d-block text-center m-auto phone-number" href="#" style="font-size: 20px">
+        <a class="d-block text-center m-auto phone-number" href="https://docs.google.com/document/d/1AK68OD3234FJh0JRAStN8XRViLlx7Z5hSOM9rwe-Ch8/edit?usp=sharing" style="font-size: 20px">
             Політика конфіденційності
         </a>
     </div>

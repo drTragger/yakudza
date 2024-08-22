@@ -6,7 +6,12 @@
         <div class="container">
             <div class="d-flex d-md-block justify-content-between mb-3">
                 <img class="img-fluid" src="{{ asset('storage/images/logo.svg') }}" alt="Logo">
-                <div class="d-flex d-md-none flex-column mr-4">
+                <div class="d-flex d-md-none flex-column mr-2">
+                    <div class="d-flex justify-content-center mt-4">
+                        <a class="phone-number" href="tel:+380634334877" style="font-size: 14px">
+                            +38 (063) 4334 877
+                        </a>
+                    </div>
                     <div class="d-flex justify-content-center mt-3">
                         <a href="mailto:yakudzaworkua@gmail.com" target="_blank" class="mr-3">
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/email.svg') }}" alt="Email">
@@ -21,13 +26,10 @@
                             <img class="img-fluid" src="{{ asset('storage/icons/mobile/facebook.svg') }}" alt="Facebook">
                         </a>
                     </div>
-                    <a class="d-block text-center m-auto phone-number" href="tel:+380634334877" style="font-size: 14px">
-                        +38 (063) 4334 877
-                    </a>
                 </div>
             </div>
             <h1 class="mb-4 mb-md-3">АВТО із США, Європи,<br>Канади та Кореї.</h1>
-            <h4 class="mb-3">
+            <h4 class="mb-3 text-center text-md-left">
                 Отримайте авто з вигодою до 40% від ринкової ціни в Україні<br>
                 Заповніть інформацію нижче і отримайте професійну консультацію від нашого спеціаліста
             </h4>

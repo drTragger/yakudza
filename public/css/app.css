@@ -168,8 +168,12 @@ input {
     width: 406px;
 }
 
+footer {
+    min-height: 80vh;
+}
+
 footer .logo {
-    width: 488px;
+    width: 200px;
 }
 
 form, footer, #finish {

@@ -13,6 +13,20 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Toastr CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+
+    <!-- Favicon PNG files -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicons/16x16.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicons/32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('favicons/48x48.png') }}">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ asset('favicons/64x64.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicons/192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{ asset('favicons/512x512.png') }}">
+
+    <!-- SVG Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicons/favicon.svg') }}">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicons/180x180.png') }}">
 </head>
 <body>
 <main role="main">
