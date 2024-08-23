@@ -287,10 +287,6 @@
                         <button type="submit" class="btn rounded-pill w-50 py-2">Відправити</button>
                     </div>
                 </div>
-
-                <div class="w-100 d-flex justify-content-center mt-5 pt-5">
-                    <img class="img-fluid logo-2" src="{{ asset('storage/images/logo-2.png') }}" alt="Logo">
-                </div>
             </div>
         </section>
     </form>
