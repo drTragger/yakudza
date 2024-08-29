@@ -12,7 +12,7 @@
         <a href="https://t.me/yakudzaoffer" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/telegram.svg') }}" alt="Telegram">
         </a>
-        <a href="https://www.instagram.com/yakudza_cars_ua?igsh=MWJ1dmo5cjExbzU4OQ%3D%3D&utm_source=qr" target="_blank">
+        <a href="https://www.instagram.com/yakudza_cars_ua" target="_blank">
             <img class="img-fluid" src="{{ asset('storage/icons/instagram.svg') }}" alt="Instagram">
         </a>
         <a href="https://www.facebook.com/profile.php?id=61563981977021" target="_blank">
