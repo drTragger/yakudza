@@ -43,6 +43,8 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1241125230249235');
         fbq('track', 'PageView');
+        fbq('track', 'CompleteRegistration');
+        fbq('track', 'Lead');
     </script>
     <noscript><img height="1" width="1" style="display:none"
                    src="https://www.facebook.com/tr?id=1241125230249235&ev=PageView&noscript=1"
